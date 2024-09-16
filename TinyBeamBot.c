@@ -169,17 +169,9 @@ int main(void) {
       PORTB &= ~(1 << LED_BIT);
     }
 
-    // aggression
     right_motor = left_sensor;
     left_motor = right_sensor;
 
-    // love
-    // right_motor = 120 - right_sensor;
-    // left_motor = 120 - left_sensor;
-
-    // fear
-    // right_motor = right_sensor;
-    // left_motor = left_sensor;
 
     _delay_ms(10);
     
